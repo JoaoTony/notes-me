@@ -1,4 +1,4 @@
-import SignIn from './screens/sign-in';
+import SignIn from '@/pages/sign-in';
 import { GlobalStyle } from './styles/global.styles';
 
 function App() {
