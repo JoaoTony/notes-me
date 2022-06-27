@@ -5,10 +5,25 @@ export const Container = styled.div`
   height: 100vh;
 
   background-color: ${({ theme }) => theme.colors.background};
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 `;
 
-export const Title = styled.h1`
-  font-size: 4rem;
-  color: #000;
-  font-weight: bold;
+export const Content = styled.div`
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+`;
+
+export const Logo = styled.img`
+  height: 30px;
+`;
+
+export const Form = styled.form`
+  
 `;

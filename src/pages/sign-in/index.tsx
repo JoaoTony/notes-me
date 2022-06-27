@@ -1,10 +1,19 @@
 import { FC } from 'react';
 
-import { Container, Title } from './sign-in.styles';
+import LogoImage from '@/assets/images/logo.png';
+
+import {
+  Container, Content, Logo,
+} from './sign-in.styles';
+import Form from './sign-in.form';
 
 const SignIn: FC = () => (
   <Container>
-    <Title>Login anda</Title>
+    <Content>
+      <Logo src={LogoImage} />
+
+      <Form />
+    </Content>
   </Container>
 );
 
