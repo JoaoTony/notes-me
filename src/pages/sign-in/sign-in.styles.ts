@@ -4,7 +4,7 @@ export const Container = styled.div`
   width: 100%;
   height: 100vh;
 
-  background-color: red;
+  background-color: ${({ theme }) => theme.colors.background};
 `;
 
 export const Title = styled.h1`
